@@ -1,0 +1,475 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Public+Sans:wght@300;400;700&family=Readex+Pro:wght@160..700&family=Roboto:wght@300;400;500;700;900&display=swap'); */
+
+.container {
+    margin-top: 3em;
+    background: rgba(255, 255, 255, 1);
+}
+
+.navigation-bar {
+    width: 80%;
+    height: 8em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    top: 0.5em;
+    margin-left: 10%;
+    z-index: 1000;
+}
+
+.nav-children {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    margin-left: 2em;
+    color: rgba(67, 81, 105, 1);
+    font-size: 2.5em;
+    line-height: 1.25em;
+}
+
+svg {
+    display: inline;
+}
+
+span {
+    display: inline;
+    margin-left: 1em;
+}
+
+.btn-hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background: rgba(63, 135, 254, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0.3125em solid rgba(63, 135, 254, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.hamburger-container {
+    display: none;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 6em;
+    margin-top: 15em;
+}
+
+.side-one {
+    /* display: block; */
+    width: 50%;
+    position: relative; /* Need to add position:relative for absolute positioning */
+    animation: text-slide 1s linear;
+}
+
+@keyframes text-slide {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.heading {
+    font-size: 5.75em;
+    max-width: 43.75em;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.heading-two {
+    font-size: 3em;
+    max-width: 25em;
+    font-weight: 400;
+    line-height: 1.3125em;
+    margin-top: 0.5em;
+}
+
+.btn-two {
+    background: rgba(63, 124, 254, 1);
+    border: 0.3125em solid rgba(63, 124, 254, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.text {
+    margin-top: 2em;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 2em;
+}
+
+.texts {
+    width: 50%;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.6875em;
+}
+
+.logos {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.side-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stack-pics {
+    margin: 0 auto;
+    width: 80%;
+    position: relative; /* Need to add position:relative for absolute positioning */
+    animation: pics-slide 1s linear;
+}
+
+@keyframes pics-slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.product-information {
+    padding-top: 4em;
+    background-color: rgba(255, 255, 255, 1);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-one,
+.product-two,
+.product-three {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    gap: 20%;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3em;
+}
+
+.info-one,
+.info-two,
+.info-three {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.font-one {
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: rgba(255, 237, 237, 1);
+}
+
+.font-two {
+    font-size: 3.375em;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: rgba(1, 29, 13, 1);
+}
+
+.font-three {
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: rgba(67, 81, 105, 1);
+    margin-top: 0.5em;
+}
+
+.unified-btn {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(63, 135, 254, 1);
+    border: 0.3125em solid rgba(255, 255, 255, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.ai-container {
+    /* height: 10.25em; */
+    width: 80%;
+    max-height: 450px;
+    margin: 0 auto;
+    background-color: rgba(63, 135, 254, 1);
+    border-radius: 25px;
+    margin-top: 7em;
+}
+
+.brief-information {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    gap: 20%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.holder {
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+.latest-tech {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.875em;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    text-align: start;
+}
+
+.brief-information {
+    padding-top: 3em;
+}
+
+p .learn-more {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(63, 124, 254, 1);
+    border: 0.3125em solid rgba(255, 255, 255, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    width: 100%;
+    height: 4em;
+    margin-top: 3em;
+}
+
+.learn-text {
+    font-weight: 700;
+    font-size: 1.25em;
+    float: left;
+}
+
+.learn-more img {
+    display: inline;
+    margin-left: 0.0625em;
+    float: right;
+    height: 2em;
+}
+
+.ai-logo {
+    margin-right: 0.9375em;
+}
+
+.integrate-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.integrate-intro {
+    text-align: center;
+}
+
+.integrate-text {
+    font-size: 3.875em;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: rgba(1, 29, 13, 1);
+    margin-bottom: 0.5em;
+}
+
+.integrate-text-two {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: rgba(67, 81, 105, 1);
+    max-width: 22.125em;
+    margin: 0 auto;
+}
+
+.last-section {
+    width: 80%;
+    display: grid;
+    margin: 0 auto;
+    gap: 20%;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10em;
+}
+
+.statistics-texts {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.statistic-headings {
+    font-size: 3.625em;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: rgba(255, 237, 237, 1);
+    padding-top: 2em;
+}
+
+.statistics-heading-two {
+    font-size: 2.375em;
+    font-weight: 600;
+    line-height: 1.875em;
+    color: rgba(1, 29, 13, 1);
+    margin-bottom: 0.5em;
+}
+
+.unified-product {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(63, 135, 254, 1);
+    border: 0.3125em solid rgba(255, 255, 255, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.footer-section {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(1, 11, 28, 1);
+}
+
+.footer-info {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container-footer-top {
+    display: grid;
+    gap: 20%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.brief-message {
+    color: white;
+    margin: 0 auto;
+}
+
+.ready-message {
+    margin-top: 1em;
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: 1.125em;
+}
+
+.join-message {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.double-btns {
+    margin-right: 0.1875em;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.business-btn {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(63, 135, 254, 1);
+    border: 0.3125em solid rgba(255, 255, 255, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 1.25em;
+    width: 50%;
+}
+
+.request-btn {
+    background: rgba(63, 135, 254, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0.3125em solid rgba(63, 135, 254, 1);
+    border-radius: 0.9375em;
+    cursor: pointer;
+    font-size: 1.25em;
+    width: 40%;
+    margin-left: 0.0625em;
+}
+
+.stroke-logo svg {
+    width: 80%;
+}
+
+.icons-texts {
+    display: flex;
+    border-bottom: 0.0625em solid rgba(225, 225, 225, 0.31);
+    padding-bottom: 3em;
+    width: 90%;
+}
+
+.portfolio {
+    width: 35%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-right: 10%;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: left;
+}
+
+.icons-tuple {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.footer-options {
+    padding-top: 3em;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0.625em;
+    padding-bottom: 3em;
+}
+
+.parent-top-list {
+    display: block;
+}
+
+.parent-top-list:first-child {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.top-list {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2em;
+}

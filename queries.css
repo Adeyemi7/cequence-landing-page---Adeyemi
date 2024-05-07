@@ -1,0 +1,388 @@
+@media (max-width: 31.5em) {
+
+    p.latest-tech {
+        font-size: 2rem;
+    }
+    .footer-options {
+        margin: 0 auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        padding-bottom: 3em;
+    }
+}
+
+
+@media (max-width: 35em) {
+    
+    .btn {
+        display: none;
+    }
+
+    .hamburger-container {
+        font-size: 2.5rem;
+    }
+
+    .information {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 0;
+    }
+
+    .side-one {
+        width: 100%;
+    }
+
+    .side-two 
+
+    .heading {
+        width: 100%;
+        line-break: 0;
+        font-size: 2rem;
+    }
+
+    .product-one,
+    .product-two,
+    .product-three {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3em;
+   }
+
+   .info-one,
+   .info-three {
+    margin-top: 7rem;
+   }
+
+   .info-two {
+    margin-bottom: 7em;
+   }
+
+   .last-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+   }
+
+   .statistic-headings {
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+   }
+
+   .statistics-heading-two {
+    max-width: 350px;
+   }
+
+   .container-footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+   }
+
+   .unified-product {
+    margin-bottom: 7rem;
+   }
+
+   .stroke-logo {
+    width: 60%;
+    margin: 0 auto;
+   }
+
+   .icons-texts {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+   }
+
+   p.portfolio {
+    width: 100%;
+    font-size: 2rem;
+    margin: 0 auto;
+   }
+
+   .footer-options {
+    padding-bottom: 10rem;
+   }
+}
+
+@media (max-width: 35.0625em) {
+
+    .information {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10%;
+    }
+
+    .side-two {
+        width: 100%;
+        margin-bottom: 7rem;
+
+    }
+
+    .hamburger-container {
+        display: block;
+        color: rgba(1,29, 13, 1);
+    }
+
+    .information {
+        margin-top: 10em;
+    }
+
+    .stack {
+        display: block;
+    }
+}
+
+@media (max-width: 44em){
+
+    html {
+        font-size: 45.875%;
+    }
+
+    
+    .information {
+        width: 90%;
+    }
+
+    .heading {
+        max-width: 40.75rem;
+    }
+
+    .btn-two {
+        font-size: 1.5rem;
+    }
+
+    .ai-logo,
+    .texts {
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    .logos {
+        width: 35%;
+        font-size: 1rem;
+    }
+
+    .font-two {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .unified-btn {
+        font-size: 1.3rem;
+    }
+
+    .latest-tech {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .ready-message {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 50em){
+
+    html {
+        font-size: 46.875%;
+    }
+
+    .navigation-bar {
+        position: fixed;
+        top: 0;
+        margin-left: 10%;
+        /* margin-bottom: 50em; */
+    }
+
+    .heading {
+        font-size: 1.8rem;
+    }
+
+    .heading-two {
+        font-size: 2rem;
+    }
+    .stack {
+        height: 100%;
+    }
+
+    .drop {
+        display: none;
+    }
+
+    .font-one {
+        font-size: 3rem;
+    }
+
+    .font-two {
+       font-size: 2rem;
+    }
+
+    .font-three {
+        font-size: 1.2rem;
+    }
+
+    .latest-tech {
+        font-size: 2.5rem;
+        width: 100%;
+        max-width: 800px;
+    } 
+
+    .ai-logo {
+        display: none;
+     }
+
+    .brief-information {
+        display: block;
+        padding-bottom: 1.5em;
+    }
+
+    p .learn-more {
+        margin-top: 0.5rem;
+    }
+
+    .learn-text,
+    .learn-more img {
+        font-size: 1.5rem;
+    }
+
+    .statistic-headings {
+        padding-top: 0.5rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .statistics-heading-two {
+        font-size: 2rem;
+    }
+
+    .ready-message {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    .join-message {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .double-btns {
+        font-size: 1rem;
+    }
+    
+    .stroke-logo svg {
+        width: 100%;
+    }
+
+    .portfolio {
+        width: 45%;
+        font-size: 1.2rem;
+    }
+
+    .icons-texts {
+        padding-bottom: 2.5rem;
+    }
+
+    .parent-top-list:first-child {
+        font-size: 1em;
+    }
+    
+}
+
+
+@media (max-width: 56.25em) {
+    .drop {
+        display: none;
+    }
+}
+
+
+@media(max-width:61.25em) {
+    .drop {
+        display: none;
+    }
+}
+
+
+@media (max-width: 62.5em){
+
+    html {
+        font-size: 54%;
+    }
+
+    .heading {
+        font-size: 3.2rem;
+    }
+
+    .font-two {
+       font-size: 2.5rem;
+    }
+
+    .latest-tech {
+        line-height: 0.5rem;
+    } 
+
+    .brief-information {
+        padding-top: 1rem;
+    }
+
+    p .learn-more {
+        margin-top: 0.5rem;
+    }
+    
+}
+
+
+@media (max-width: 67em){
+
+    html {
+        font-size: 56.375%;
+    }
+    
+}
+
+
+
+@media (max-width: 67em){
+
+    html {
+        font-size: 59.375%;
+    }
+    
+}
+
+
+@media (max-width: 81.5em){
+    .latest-tech {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    } 
+
+    .statistic-headings {
+        font-size: 3.2rem;
+    }
+}
+
+
+
+@media (max-width: 88em){
+.heading {
+    font-size: 4.5rem;
+}
+
+.product-one,
+.product-two,
+.product-three {
+    margin-bottom: 7rem;
+}
+
+.latest-tech {
+    font-size: 2.75em;
+}
+
+}
