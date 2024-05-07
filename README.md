@@ -32,7 +32,15 @@ Mobile-first workflow
 
 ## images 
 
-[images
+Desktop-view
+![mobile-view](https://github.com/Adeyemi7/cequence-landing-page---Adeyemi/assets/98192574/b80d4acb-2c49-4f63-bbde-a300e8f333b7)
+
+Medium screen sizes
+![medium-screen-view](https://github.com/Adeyemi7/cequence-landing-page---Adeyemi/assets/98192574/8b17325a-a7cf-4488
+
+Mobile view
+![desktop-view](https://github.com/Adeyemi7/cequence-landing-page---Adeyemi/assets/98192574/28c68ad8-4ce0-44a3-a7e0-5256892bddb0)
+-b01e-77d3a6a914eb)
 
 
 # Author 
