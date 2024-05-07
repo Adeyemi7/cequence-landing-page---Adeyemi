@@ -8,3 +8,9 @@ Designed to make a lasting impression, Cequence offers more than just aesthetics
 Whether you're showcasing a product, promoting a service, or telling a story, Cequence empowers you to captivate your audience with style and substance. Elevate your online presence and leave a lasting impact with Cequence – where innovation meets inspiration, and every click tells a story.
 
 Experience Cequence today and unlock the potential of your digital journey.
+
+
+
+# Author 
+Name: Adeyemi Ayodele
+LinkedIn - https://www.linkedin.com/in/ayodele-adeyemi-1b46ba226/
