@@ -3,6 +3,7 @@
 .container {
     margin-top: 3em;
     background: rgba(255, 255, 255, 1);
+    overflow: hidden; 
 }
 
 .navigation-bar {
