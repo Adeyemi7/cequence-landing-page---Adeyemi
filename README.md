@@ -9,8 +9,35 @@ Whether you're showcasing a product, promoting a service, or telling a story, Ce
 
 Experience Cequence today and unlock the potential of your digital journey.
 
+# My Process
+
+The challenge
+Users should be able to:
+
+-View the optimal layout for the app depending on their device's screen size
+
+##
+Useful resources
+Chat GPT - Helped in debugging my code.
+StackOverflow
+Useful resources Chat GPT - Helped in debugging my code.
+
+## 
+Built with
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+CSS Grid
+Mobile-first workflow
+
+## images 
+
+[images
 
 
 # Author 
 Name: Adeyemi Ayodele
 LinkedIn - https://www.linkedin.com/in/ayodele-adeyemi-1b46ba226/
+GitHub -https://github.com/Adeyemi7?tab=repositories
+Frontend Mentor - https://www.frontendmentor.io/profile/Adeyemi7
+
